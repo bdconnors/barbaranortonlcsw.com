@@ -36,6 +36,7 @@ body {
 */
 body nav{
     max-width: 70em;
+    background-color:#334c5e;
 }
 
 .navbar-brand{
@@ -53,41 +54,20 @@ body nav{
  div .col-md-8 p{
     line-height: 1.7rem;
 }
- 
-.nav-masthead .nav-link {
-    padding: .25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5);
-    background-color: transparent;
-    border-bottom: .25rem solid transparent;
-  }
-  
-  .nav-masthead .nav-link:hover,
-  .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
-  }
-  
-  .nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-  }
-  
-  .nav-masthead .active {
-    color: #ECECEB;
-    border-bottom-color: #ECECEB;
-  }
-.masthead {
-    margin-bottom:15%
+#bnlcswMasthead {
+    margin-bottom:10%
 }
-.masthead-brand {
-  margin-bottom: 0;
+#bnlcswcoverheadingcontainer{
+    margin-bottom: 2%;
 }
-.cover-container {
-    max-width: 70em;
+#bnlcswcoversubheadingcontainer{
+    margin-bottom:2%;
 }
-.bnlcsw-cover-slogan{
-    margin-bottom:5%;
+.bnlcsw-cover-container {
+    max-width: 100%;
 }
-.cover-wrap{
+
+#bnlcswCoverWrap{
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -105,10 +85,11 @@ body nav{
   background-attachment: scroll, scroll, scroll;
   text-align: center;
 }
-#testimonials{
+#bnlcswTestimonials{
     background-color: #222e2e;
-     height:auto; 
-     width:100%;
+    height:auto; 
+    width:100%;
+    opacity: 65%;
 }
 .carousel-inner{
     padding-top:15%;

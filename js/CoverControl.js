@@ -2,30 +2,35 @@
 class CoverControl{
 
     constructor(content = fragments){
-
         this.content = content;
-
-        $('.bnlcsw-frag-link').click(this.set);
-        $('#fragmentContainer').append(this.get('home')); 
-
+        $('.bnlcsw-frag-link').click(this.select);
+        this.set('home');
     }
 
-    set = (e) => {
+    select = (e) => {
 
-        const container = $('#fragmentContainer');
+        const container = $('#bnlcswcoverfragment');
         const stub = $(e.currentTarget).attr('data-bnlcsw-fragment');
-        const frag = this.get(stub)
 
         container.fadeOut(600,()=>{
-            container.empty();
-            container.append(frag);
+            this.set(stub);
             container.fadeIn();
         }); 
     }
     get = (stub) => {
-
         const stubStr = stub.toLowerCase();
-
         return this.content[stubStr];
+    }
+    set = (stub) => {
+        this.setPart('heading',stub);
+        this.setPart('subheading',stub);
+        this.setPart('content',stub);
+    }
+    setPart=(part,stub)=>{
+        const fragment = this.get(stub);
+        const value = fragment[part];
+        const container = $('#bnlcswcover'+part);
+        container.empty();
+        container.append(value);
     }
 }
