@@ -57,11 +57,19 @@ body nav{
 #bnlcswMasthead {
     margin-bottom:10%
 }
-#bnlcswcoverheadingcontainer{
-    margin-bottom: 2%;
-}
+
 #bnlcswcoversubheadingcontainer{
-    margin-bottom:2%;
+    margin-bottom:5%;
+}
+#bnlcswcoverbodyrow{
+    text-align: center;
+}
+#bnlcswcoverbody{
+    text-align: left;
+}
+#bnlcswcovercontent{
+   padding: 50px 5%;
+   text-align: center;
 }
 .bnlcsw-cover-container {
     max-width: 100%;

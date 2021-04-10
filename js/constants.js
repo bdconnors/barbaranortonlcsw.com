@@ -4,39 +4,41 @@ const fragments = {
     home: {
         heading:`Barbara Norton, Psychotherapy.`,
         subheading:`Support and guidance in facing our everyday challenges.`,
-        content:`Barbara Norton offers those with a desire to understand themselves and their relationships, a stress free approach to talk therapy.
-            Her specialty area is helping those who are struggling with loss and grief. If you are planning your next step in life or are experiencing challenges, 
-            engaging in psychotherapy with Barbara can help you navigate and overcome these obstacles.`
+        body:`<p>Barbara Norton offers those with a desire to understand themselves and their relationships, a stress free approach to talk therapy.
+     
+            
+            <p>If you are planning your next step in life or are experiencing challenges, 
+            engaging in psychotherapy with Barbara can help you navigate and overcome these obstacles.</p>`
   
     },
     about:{
         heading:`About`,
         subheading:`About Barbara`,
-        content:`About Content`
+        body:`<p>About body</p>`
     }, 
     approach:{
         heading:`Approach`,
         subheading:`Barbara's Approach`,
-        content:`Approach Content`
+        body:`Approach body`
     }, 
     services:{
         heading:`Services`,
         subheading:`Barbara's Services`,
-        content:`Services Content`
+        body:`Services body`
     }, 
     client:{
         heading:`New Client`,
         subheading:`New Client Information`,
-        content:`New Client Content`
+        body:`New Client body`
     }, 
     insurance:{
         heading:`Insurance`,
         subheading:`Insurance Fees`,
-        content:`Insurance Content`
+        body:`Insurance body`
     }, 
     contact:{
         heading:`Contact`,
         subheading:`Contact Barbara`,
-        content:`Conctact Content`
+        body:`Conctact body`
     }
 }
